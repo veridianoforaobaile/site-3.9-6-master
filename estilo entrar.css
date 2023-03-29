@@ -1,0 +1,149 @@
+body
+{
+    overflow: hidden;  
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+.titulo
+    {
+        position: absolute;
+        width: 150%;
+        height: 150%;
+        top: -60%;
+        left: 24%;
+        display: flex;
+        justify-content: top;
+        justify-items: top;
+        align-content: top;
+        align-items: top;
+        animation: rubberBand 5s;
+        animation: bounceInDown 5s;
+    }
+
+
+  
+  .tabelalogin
+  {
+    border: solid;
+    border-width: 1px;
+    border-spacing:5px ;
+    padding: 0px; 
+  }
+  
+  .nome
+  {
+    color: white;
+    position:absolute;
+    top: 45%;
+    left: 35%;
+  }
+  .senha
+  {
+    color: white;
+    position:absolute;
+    top: 52%;
+    left: 35%;
+  }
+  .nometxt
+  {
+    background-color: black;
+    color: white;
+    height: 25px;
+    position:absolute;
+    top: 35%;
+    left: 45%;
+  }
+  .senhatxt
+  {
+    background-color: black;
+    color: white;
+    height: 25px;
+    position:absolute;
+    top: 40%;
+    left: 45%;
+  }
+  .conteudo
+  {
+    width: 100%; /*largura */
+    height: 100vh; /* VISUAL altura */
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    position: absolute;
+    top: 50%; 
+  }
+  .botao
+        {
+            cursor: pointer;
+            background-color: yellow;
+            width: 100px;
+            height: 50px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            position: absolute;
+            top: 60%;
+            left: 37%;
+        }
+ .criar_conta
+ {
+  cursor: pointer;
+  background-color: yellow;
+  width: 100px;
+  height: 60px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  position: absolute;
+  top: 60%;
+  left: 47%;
+ }
+
+ .disquete
+   {
+       position: absolute;
+       height: 50px;
+       left: 32%;
+       top: 52%;
+       animation: fadeInLeftBig 4s;
+       
+   }
+
+   .disquete2
+   {
+       position: absolute;
+       height: 50px;
+       left: 32%;
+       top: 45%;
+       animation: fadeInRightBig 4s;
+   }
+   .neydisc
+   {
+    position: absolute;
+       height: 320px;
+       left: 73%;
+       top: 18%;
+   }
+   .neymecima
+   {
+    color:yellow;
+    position:absolute;
+    top: 8%;
+    left: 78%;
+
+   }
+   .neymebaixo
+   {
+    color:yellow;
+    position:absolute;
+    top: 53%;
+    left: 74%;
+   }

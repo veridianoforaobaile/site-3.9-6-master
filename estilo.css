@@ -1,0 +1,148 @@
+body
+{
+  overflow: hidden;
+}
+.texto1
+    {
+    position: absolute;
+    color: white;
+    top: 45%;
+    left: 45%;
+    width: 20%;
+    animation: bounceInUp 4s;
+
+
+    }
+    .titulo
+    {
+        position: absolute;
+        top: 1%;
+        left: 35%;
+        animation: rubberBand 4s;
+        animation: bounceInDown 4s;
+       
+}
+   
+        .titulo2
+        {
+        position: absolute;
+        top: 17%;
+        left: 39%;
+        animation: rubberBand 4s;
+        animation: bounceInUp 4s;
+
+
+        }
+   
+    .discneymar
+    {
+        position: absolute;
+        top: 45%;
+        left: 30%;  
+        animation: bounceInUp 4s;
+    }
+   
+    .planeta
+    {
+        position: absolute;
+        height: 8%;
+        left: 62%;
+        top: 15%;
+        animation: fadeInRightBig 4s;
+    }
+   
+    .planeta2
+    {
+        position: absolute;
+        height: 8%;
+        left: 33%;
+        top: 15%;  
+        animation: fadeInLeftBig 4s;
+    }
+   .disquete
+   {
+       position: absolute;
+       height: 15%;
+       left: 20%;
+       top: 50%;
+       animation: fadeInLeftBig 4s;
+       
+   }
+
+
+   .disquete2
+   {
+       position: absolute;
+       height: 15%;
+       left: 69%;
+       top: 50%;
+       animation: fadeInRightBig 4s;
+     
+   }
+   
+   footer {
+    padding: 50px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 90%;
+    line-height: 100px;
+    top: 75%;
+    animation: bounceInUp 4s;
+  }
+
+
+  table, th, td {
+    border:px solid rgb(255, 255, 255);
+  }
+
+
+  a:link {
+    color: rgb(253, 253, 253);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .Barra1
+  {
+    position: absolute;
+    top: 89%;
+    left: 35%;
+    animation: bounceInUp 4s;
+  }
+  .Barra2
+  {
+    position: absolute;
+    top: 89%;
+    left: 10%;
+    animation: bounceInUp 4s;
+  }
+ 
+  .Barra3
+  {
+    position: absolute;
+    top: 85%;
+    left: 35%;    
+    animation: bounceInUp 4s;
+  }
+  .Barra4
+  {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+   animation: bounceInUp 4s;
+  }
